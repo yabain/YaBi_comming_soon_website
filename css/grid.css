@@ -490,7 +490,11 @@
 }
 @media (max-width: 479px) {
 	.container {
-		width: 320px;
+		width: 350px;
+	}
+	.container2 {
+		width: auto !important;
+		margin-left: -10px;
 	}
 
 	.nav-collapse {
